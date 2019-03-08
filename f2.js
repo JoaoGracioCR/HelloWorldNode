@@ -1,3 +1,5 @@
-var exports = module.exports = {};
+const f1 = require('./f1.js');
+module.exports.data = function data(){
 
-console.log(exports.data);
+ console.log(f1.data());
+}
